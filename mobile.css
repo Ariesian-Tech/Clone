@@ -1,0 +1,29 @@
+@media screen and (max-width:767px){
+    #first1{
+         display: none;
+         /* background-color: red; */
+    }
+    #third1{
+         display: none;
+         /* background-color: red; */
+    }
+    .secodcontainer{
+        width: 100%;
+    }
+    .messagebar{
+        /* border: 5px solid red; */
+        /* top: 0px; */
+        /* overflow: hidden; */
+        position: none;
+    }
+    .bar-wrapper input{
+        padding: none;
+        width: 30rem;
+    }
+    .bar-wrapper button{
+    width: 4rem;
+    height: 2rem;
+}
+
+}
+

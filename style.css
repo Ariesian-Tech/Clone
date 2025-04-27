@@ -1,0 +1,246 @@
+body{
+    /* background-color: #f0f2f5; */
+    color: white;
+    background-color: black !important;
+    
+    
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstcontainer i {
+    font-size: 1.5rem; /* ya jo bhi styling chahiye */
+    /* background-color: red; */
+    cursor: pointer;
+   
+ 
+}
+.firstcontainer i:hover {
+      border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.37);
+ 
+}
+.firstcontainer i:nth-child(1):hover {
+      border-radius: 0px;
+    background-color: rgba(128, 128, 128, 0.435);
+ 
+}
+.firstcontainer i:nth-child(5) {
+  color: blue;
+}
+.firstcontainer{
+    width: 5%;
+   height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    /* border: 5px solid red; */
+    gap: 25px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.overallcontainer{
+    /* display:inline-block; */
+    height: 100%;
+
+
+    
+    /* border: 5px solid green; */
+    display: flex;
+    
+}
+.secodcontainer{
+    display: flex ;
+
+    
+    flex-direction: column;
+    width: 40%;
+    max-height: 38%;
+    /* height: 100vh; */
+  
+    /* border: 5px solid red; */
+    border-left: 2px solid rgba(128, 128, 128, 0.414);
+    border-right: 2px solid rgba(128, 128, 128, 0.33);
+
+}
+.thirdcontainer{
+    display: flex;
+   
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* border: 5px solid cyan; */
+    height: 100vh;
+    text-align: center;
+}
+.thirdcontainer img{
+    width: 20vw;
+
+}
+.thirdcontainer button{
+    border-radius: 20px;
+    color: white;
+    background-color:#008069;
+    font-size: 1rem;
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.firstchild {
+display: flex;
+flex-direction: column;
+gap: 25px;
+margin-top: 18rem;
+/* margin-: 30px; */
+}
+.firstchild i:hover {
+border-radius: 20px !important; 
+}
+.thirdcontainer h1{
+    color: #41525d;
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+.green{
+    font-size: 7px;
+    
+}
+/* search bar  */
+/* From Uiverse.io by xetrov47 */ 
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #767676;
+    color: #767676;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: -1.5rem;
+    height: 30px;
+    width: 20rem;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #767676;
+    font-size: 14px;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #fff;
+    margin-top: 0.1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search input:focus {
+    outline: none;
+  }
+  .contact{
+    /* border: 5px solid red; */
+    margin-top: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+    overflow-y: scroll;
+    max-height: 38%;
+   
+    
+    
+  }
+  .jso{
+    /* border: 5px solid green; */
+    gap: 20px;
+    display: flex;
+    flex-direction:row;
+  }
+  .jso img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+  }
+  .text-box h2{
+    color: #111B21;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+  }
+ 
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .icons{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22px;
+    
+  }
+  .icons i{
+    font-size: 2rem;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid red; */
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 10px;
+    margin-top: 2.5vh;
+
+  }
+  .btn button{
+    font-size: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color:grey;
+  cursor: pointer;
+  }
+  .brd2{
+    background-color:rgba(0, 128, 0, 0.649)  !important;
+  }
+ .icons img{
+  background-color: rgba(128, 128, 128, 0.388);
+  /* border: 5px solid red; */
+  width: 4rem;
+  object-fit: cover;
+  position: fixed;
+  right: 0;
+  margin-left: 16rem;
+  margin-top: 28rem;
+
+  z-index: 999;
+  
+  height: 4rem;
+  border-radius: 25px;
+ }
+ 
